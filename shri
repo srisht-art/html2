@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Profile</title>
+    <style>
+        /* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e1f5f4; /* Light Teal Background */
+    color: #495057; /* Dark Gray Text */
+}
+
+/* Header Styling */
+header {
+    background-color: #009688; /* Teal */
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styling */
+nav {
+    margin: 25px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #80cbc4; /* Light Teal Hover */
+    transform: scale(1.05);
+}
+
+/* Section Styling */
+section {
+    max-width: 940px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+h2 {
+    color: #00796b; /* Darker Teal */
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 15px 0;
+    padding: 15px;
+    background: #b2dfdb; /* Light Teal Background for List Items */
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #80cbc4; /* Darker Teal on Hover */
+    transform: scale(1.02);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #009688; /* Teal */
+    color: white;
+    font-size: 16px;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 60px;
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 650px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    color: #aaa;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.close:hover,
+.close:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #00796b; /* Dark Teal */
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #004d40; /* Even Darker Teal */
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shristi Khanna</h1>
+    <p>Your Tagline or a Short Description</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">My Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my personal profile!Here, you can find information about my skills, projects, and how to contact me.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p></p>Motivated and enthusiastic college student with a passion for learning. Strong academic background in BTech CSE (Cloud Computing & Machine Learning) with a solid foundation in frontend development & UI/UX. Quick learner, adaptable to new environments, and eager to take on challenges. Seeking to leverage academic knowledge and drive to succeed in a job..</p>
+</section>
+
+<section id="services">
+    <h2>My Services</h2>
+    <ul>
+        <li>Frontend Development: Crafting visually appealing and user-friendly interfaces with a keen eye for usability, ensuring a seamless experience for users across devices.</li>
+        <li>UI/UX Design*: Leveraging design principles, color theory, and usability testing to create intuitive layouts that enhance user satisfaction and engagement.</li>
+        <li>Content Creation*: Developing engaging content for websites, blogs, and online platforms to enhance digital presence and connect with audiences.</li>
+        <li>Data Analysis & Problem-Solving: Using analytical skills and programming knowledge to solve complex problems, optimize processes, and provide insights.</li>
+        <li>Project Management & Communication: Proven experience in managing teams, coordinating events, and maintaining stakeholder relations, ensuring projects are executed smoothly and effectively.</li>
+<li> Prototyping & Design Validation*: Creating prototypes and validating design concepts, ensuring that the final product meets both aesthetic and functional goals.</li>  
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li onclick="openModal('project1')"><strong>Project 1:</strong> Iris Recognition</li>
+        <li onclick="openModal('project2')"><strong>Project 2:</strong> Big Sale Managment</li>
+        <li onclick="openModal('project3')"><strong>Project 3:</strong> Case Study of food mobile app</li>
+        
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>C Programming</li>
+        <li>Python Programming</li>
+        <li>UI/UX Design</li>
+        <li>HTML & CSS</li>
+     <li>  C & C++ </li>
+<li>SQL</li>
+
+
+<li>Cloud Computing</li>
+<li> Machine Learning</li>
+<li>Observation</li>
+<li>Decision Making</li>
+<li>Communication</li>
+<li>Multi-tasking</li>
+<li>Problem-Solving</li>
+<li>Microsoft Office</li>
+<li>Decision-Making</li>
+<li>Data Entry</li>
+<li>Networking</li>
+
+        
+    </ul>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>Bachelor's Degree in Computer Science Specilization In Cloud Computing & ML: Babu Banarsi Das University, 2026</li>
+       
+    </ul>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li>Fundraising Volunteer, Pawzz NGO: -Raised funds for street dogS-Managed communication with stakeholders  
+- Prepared reports and shared insights with the team</li>
+        <li>Volunteer, Colourthon Event: 
+- Managed crowd and supplies  
+- Communicated with participants and ensured smooth operations  
+- Prepared reports on event performance and insightn</li>
+        <li>Intern, Mydailywork, LUCKNOW : 
+- Created content for website pages, blog posts, and other online platforms</li>
+        <li>C Programming Intern,FutureIntern: 
+Goal is to enhance problem-solving skills and gain hands-on experience in structured programming, memory management, and algorithm development</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p class="contact-info">Email: <a href="mailto:shristikhanna22@gmail.com">shristikhanna22@gmail.com</a></p>
+    <p class="contact-info">LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">https://www.linkedin.com/in/shristi-khanna</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Shristi Khanna</p>
+</footer>
+
+<!-- Modal for project details -->
+<div id="project1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('project1')">&times;</span>
+        <h2>Project 1 Details</h2>
+        <p>Iris recognition is known for its accuracy and reliability, and has a very low false match rate.Iris recognition is safe because it uses simple video photography and special sensors, and doesn't emit any laser rays or x-rays.</p>
+    </div>
+</div>
+<div id="project2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('project2')">&times;</span>
+        <h2>Project 2 Details</h2>
+        <p>Sales monitoring is a process that helps businesses track and analyze sales data to optimize strategies and improve performance.</p>
+    </div>
+</div>
+<div id="project3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('project3')">&times;</span>
+        <h2>Project 3 Details</h2>
+        <p>It delivery applications provide convenience to customers by allowing them to order food online from various restaurants and home chefs for delivery. They also allow users to track orders and provide feedback. Such applications help both restaurants and home chefs to reach more customers online.</p>
+    </div>
+</div>
+
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Modal functionality
+    function openModal(project) {
+        document.getElementById(project).style.display = "block";
+    }
+
+    function closeModal(project) {
+        document.getElementById(project).style.display = "none";
+    }
+
+    // Close modal when clicking outside of it
+    window.onclick = function(event) {
+        const modals = document.querySelectorAll('.modal');
+        modals.forEach(modal => {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
